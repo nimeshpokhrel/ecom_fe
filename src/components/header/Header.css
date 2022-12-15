@@ -1,0 +1,100 @@
+.app-header {
+  display: flex;
+}
+
+.icon {
+  color: #27d37e !important;
+}
+
+.icon-text {
+  font-size: 14.75px;
+  font-weight: 500;
+}
+
+.app-navbar {
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  /* box-shadow: 0px 2px 20px rgb(1 41 112 / 15%) !important; */
+}
+
+.app-button {
+  background-image: linear-gradient(
+    to bottom right,
+    #27d37e,
+    #00be74
+  ) !important;
+  border: none !important;
+  color: white !important;
+  font-size: 14.25px !important;
+  border-radius: 3px !important;
+  font-weight: 500 !important;
+  padding: 8px 16px !important;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.15) !important;
+}
+
+.app-button:hover {
+  background-image: linear-gradient(to top right, #27d37e, #00be74) !important;
+}
+
+.header-link:hover {
+  cursor: pointer;
+}
+
+.app-navbar-search {
+  background-color: #f7fef4 !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.app-search-wrapper {
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.05) !important;
+  background-color: #f7fef4 !important;
+  border: 1px solid #27d37e !important;
+  border-radius: 3px !important;
+}
+
+.vl {
+  border-left: 1px solid #27d37e;
+  margin: 7px 5px !important;
+}
+
+.app-navbar-search:focus,
+.app-navbar-search:active {
+  border-color: #27d37e !important;
+  box-shadow: none !important;
+}
+
+.app-navbar-dropdown {
+  color: black !important;
+  background-color: #f7fef4 !important;
+  font-weight: 500 !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.app-navbar-dropdown:hover,
+.app-navbar-dropdown:focus,
+.app-navbar-dropdown:active {
+  background-color: #27d37e !important;
+}
+
+.navbar-toggler,
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.lower-nav {
+  background-color: white;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0px 3px 3px rgb(1 41 112 / 10%) !important;
+  margin-top: 85px;
+  padding: 0.75rem;
+}
+
+.vl-secondary {
+  height: 40px;
+  border-left: 2px solid rgba(67, 67, 67, 0.676);
+}
