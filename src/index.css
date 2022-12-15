@@ -20,3 +20,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.nav-item a:hover {
+  color: #00be74 !important;
+}
+
+.nav-link:hover {
+  color: #00be74 !important;
+}

@@ -28,7 +28,7 @@ import {
   faListDots,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import { NavItem } from "react-bootstrap";
+import { NavItem, NavLink } from "react-bootstrap";
 
 const Logo = () => {
   return (
@@ -125,7 +125,7 @@ const AppNavbar = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavItem>About</NavItem>
+              <NavLink>About</NavLink>
               <NavDropdown title="Shop" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
@@ -152,8 +152,8 @@ const AppNavbar = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavItem>Our Team</NavItem>
-              <NavItem>Contact</NavItem>
+              <NavLink>Our Team</NavLink>
+              <NavLink>Contact</NavLink>
               <FontAwesomeIcon icon={faFacebook} />
               <FontAwesomeIcon icon={faTwitter} />
               <FontAwesomeIcon icon={faInstagram} />
@@ -204,19 +204,19 @@ const AppNavbar = () => {
                     className="me-2 icon"
                     size="lg"
                   />
-                  <Text className="me-4 icon-text">Wishlist</Text>
+                  <NavLink className="me-4 icon-text">Wishlist</NavLink>
                   <FontAwesomeIcon
                     icon={faCartShopping}
                     className="me-2 icon"
                     size="lg"
                   />
-                  <Text className="me-4 icon-text">Cart</Text>
+                  <NavLink className="me-4 icon-text">Cart</NavLink>
                   <FontAwesomeIcon
                     icon={faUser}
                     className="me-2 icon"
                     size="lg"
                   />
-                  <Text className="icon-text">Account</Text>
+                  <NavLink className="icon-text">Account</NavLink>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>
             </Container>
